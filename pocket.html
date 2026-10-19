@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7e3e4">
+<meta name="description" content="A little reminder for Kate: you deserve to feel safe, respected, and loved exactly as you are.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="A little something for Kate">
+<meta property="og:description" content="Someone who cares about you has a few things she wants you to know.">
+<title>The appreciation station · for kate</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./style.css?v=1">
+<script src="./site.js?v=1" defer></script>
+</head>
+<body data-page="pocket">
+<div class="backdrop" aria-hidden="true"><span class="ambient ambient-a"></span><span class="ambient ambient-b"></span><span class="ambient ambient-c"></span></div>
+<header class="site-header shell">
+<a href="./index.html" data-page-link class="brand" aria-label="Back to the beginning"><span class="brand-bloom"><svg viewBox="0 0 32 32" focusable="false" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"><path d="M16 2v7M16 23v7M2 16h7M23 16h7M6 6l5 5m10 10 5 5M26 6l-5 5M11 21l-5 5"/></g><circle cx="16" cy="16" r="4" fill="currentColor"/></svg></span><span>a little something for kate</span></a>
+<nav class="progress-dots" aria-label="Pages"><a href="./index.html" data-page-link  aria-label="Page 1: A little hello" title="A little hello"></a><a href="./letter.html" data-page-link class="here" aria-current="page" aria-label="Page 2: From Bella" title="From Bella"></a><a href="./mirror.html" data-page-link  aria-label="Page 3: What I see" title="What I see"></a><a href="./love.html" data-page-link  aria-label="Page 4: Love should feel" title="Love should feel"></a><a href="./choose.html" data-page-link  aria-label="Page 5: Your next chapter" title="Your next chapter"></a></nav>
+<div class="page-fraction"><strong>02</strong> / 05</div>
+</header>
+<main id="main">
+<section class="stage stage-pocket">
+<div class="shell pocket-layout content-enter">
+ <div class="pocket-intro">
+  <div class="overline">03 / an emergency stash of good words</div>
+  <h1>the <em>kate</em> appreciation station.</h1>
+  <p class="lead">A tiny machine that dispenses compliments, reminders, and the occasional reality check. Unlimited refills. Absolutely no refunds on the fact that you're amazing.</p>
+  <div class="pocket-guide">
+   <span class="guide-number">01</span><span>Pick the kind of reminder you need.</span>
+   <span class="guide-number">02</span><span>Pull another note whenever you feel like it.</span>
+   <span class="guide-number">03</span><span>Keep your favorites in your little pocket.</span>
+  </div>
+  <p class="hand pocket-sidenote">and yes. the compliments are legally binding.</p>
+ </div>
+ <div class="dispenser-zone">
+  <span class="machine-spark machine-spark-a" aria-hidden="true">✦</span>
+  <div class="dispenser" aria-label="Interactive self-worth message dispenser">
+   <div class="machine-header"><span class="machine-mascot" aria-hidden="true">♡</span><span>THE GOOD STUFF CO.</span><span class="machine-id">100% YOU</span></div>
+   <div class="machine-marquee">take what you need, pretty girl.</div>
+   <div class="channel-controls" role="group" aria-label="Choose a type of encouragement">
+    <button type="button" class="channel-btn active" data-pocket-mode="hype" aria-pressed="true">hype me up</button>
+    <button type="button" class="channel-btn" data-pocket-mode="soft" aria-pressed="false">be gentle</button>
+    <button type="button" class="channel-btn" data-pocket-mode="standards" aria-pressed="false">my standards</button>
+   </div>
+   <div class="machine-window">
+    <div class="ticker" aria-hidden="true">✦ &nbsp; 1 FREE REMINDER &nbsp; ✦</div>
+    <div class="message-slip" id="message-slip" role="status" aria-live="polite" aria-atomic="true">
+     <span class="slip-top" id="slip-category">TODAY'S COMPLIMENT</span>
+     <p id="slip-message">Kate, you are a whole lot of wonderful in one person. Don't let anyone convince you otherwise.</p>
+     <span class="slip-bottom">KEEP THIS CLOSE TO YOUR HEART ♡</span>
+    </div>
+    <div class="machine-meter"><span id="slip-count">01 / 12</span><span>made for kate ♡</span></div>
+   </div>
+   <div class="machine-action">
+    <button type="button" class="dispense-btn" id="next-slip">another one, please <span aria-hidden="true">↻</span></button>
+    <button type="button" class="save-slip" id="save-slip" aria-pressed="false">♡ save to my pocket</button>
+   </div>
+  </div>
+  <span class="machine-spark machine-spark-b" aria-hidden="true">✧</span>
+  <div class="pocket-saved">
+    <div><span class="hand">your little pocket</span><span id="pocket-total" class="saved-total">0 notes kept</span></div>
+    <button type="button" class="pocket-open-btn" id="open-pocket" aria-expanded="false" aria-controls="saved-panel">open my pocket ↗</button>
+  </div>
+  <div id="saved-panel" class="saved-panel" hidden>
+    <p class="saved-empty" id="saved-empty">Your favorites will appear here when you save them. Nothing gets sent anywhere.</p>
+    <ul class="saved-list" id="saved-list"></ul>
+    <button type="button" class="mini-text-btn" id="clear-pocket">empty my pocket</button>
+  </div>
+ </div>
+ <div class="step-nav"><a href="./mirror.html" class="btn btn-soft" data-page-link>← the little things</a><a href="./love.html" class="btn btn-primary" data-page-link>next, the important stuff ↗</a></div>
+</div>
+</section>
+</main>
+<footer class="site-footer shell"><span>made with a whole lot of love, from bella</span><span class="footer-right">no pressure. just a reminder. <span aria-hidden="true">♡</span></span></footer>
+<div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
