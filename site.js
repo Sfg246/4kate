@@ -59,7 +59,7 @@
       },
       boundary: {
         title: "my boundaries matter",
-        text: "I care about you, but I need to be clear about something important to me. My boundaries and my decision to wait are not up for negotiation. I need a relationship where my choices are respected without pressure or guilt. Please don't ask me to prove my love by doing something I'm not ready for. If we can't agree on that, I need to reconsider this relationship."
+        text: "I care about you, but I need to be clear about something important to me. My boundaries are not up for negotiation. I need a relationship where my choices and my 'no' are respected without pressure or guilt. Please don't ask me to prove my love by crossing my boundaries. If we can't agree on that, I need to reconsider this relationship."
       },
       end: {
         title: "choosing to move forward",
