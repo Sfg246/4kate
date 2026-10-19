@@ -569,3 +569,8 @@ body.leaving main{animation:depart .27s ease forwards}
  .garden-plant{transition:none}
  .future-card-inner{transition:none}
 }
+
+/* Little universe branding for the new moon-and-stars identity. */
+.brand-bloom{background:#f6ebfb;border-color:#d4bbdb;box-shadow:0 5px 13px #836c9d20}
+.brand-bloom svg{width:27px;height:27px}
+@media(max-width:420px){.brand-bloom svg{width:23px;height:23px}}
