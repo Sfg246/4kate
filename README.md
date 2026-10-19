@@ -1,38 +1,63 @@
-# for kate ♡
+# Kate's little universe
 
-A five-page, interactive, friendship-first website created for Kate. The story is written from **Bella's perspective** to support Kate's confidence and autonomy, not to diagnose anyone or decide her relationship for her.
+A completely custom, eight-chapter encouragement website made for Kate, written from Bella's perspective.
 
-The message is simple: Kate deserves respect, safety, clarity and consideration, including respect for her decision to wait until marriage. A breakup is an option she may choose, not something the site forces on her.
+The original five-page site has become a small *interactive universe*: an illustrated opening stararium, a heartfelt letter, flip cards, an arcade-style appreciation station with 36 encouragement notes, a page about healthy love, a growable garden, future postcards, and optional messages Kate can copy.
 
-## Pages
+This is intentionally not a remake of the website for Bella. The new version has its own **moon-and-stars brand**, illustrated micro-worlds and interactive mechanisms.
 
-1. `index.html`: opening surprise, letter-shaped invitation
-2. `letter.html`: handwritten-style letter from Bella
-3. `mirror.html`: six interactive reminders about self-worth
-4. `love.html`: five expandable examples of healthy, respectful love
-5. `choose.html`: four optional, copyable messages for space, boundaries, a breakup, or asking Bella for support, plus one private-feeling final note
+## The eight chapters
 
-All navigation uses relative links. There is no backend, collection of information, analytics, API, tracking, forms, or automatic messaging. Drafts only copy to the user's clipboard following an explicit click. It is a static GitHub Pages site.
-
-## Deploy
-
-Enable GitHub Pages under **Settings → Pages → Deploy from a branch**, choose `main` and `/(root)`. The site should then be available at:
-
-https://sfg246.github.io/4kate/
-
-Publishing isn't automatic unless GitHub Pages is enabled.
-
-## Safety and privacy
-
-This repository and GitHub Pages site are public. Do not include private screenshots, identifying allegations, intimate specifics, or passwords in the site. Avoid treating suspicion of cheating as an established fact.
-
-If ending the relationship could provoke a threatening response, choosing a safe method and having support from trusted people comes before using any template. Text is optional and editable. No website can make the decision on her behalf.
+| # | Page | Experience |
+|---|------|------------|
+| 1 | `index.html` | Kate's illustrated pocket universe, with four clickable surprise stars and a surprise button |
+| 2 | `letter.html` | A thoughtful letter from Bella about Kate's value and agency |
+| 3 | `mirror.html` | Six interactive self-worth cards she can flip over |
+| 4 | `pocket.html` | A retro compliment dispenser with three channels, 12 messages each, previous/next/surprise, copy, and favorite notes |
+| 5 | `love.html` | Five expandable reminders about boundaries, kindness, honesty, and mutual respect |
+| 6 | `garden.html` | Tap six pots to grow a garden of peace, joy, trust, respect, hope and self-worth |
+| 7 | `future.html` | Six illustrated future postcards, with flipping, carousel controls and dot navigation |
+| 8 | `choose.html` | Choose to request space, communicate boundaries, end the relationship, or talk to Bella first, then optionally copy the message. Nothing sends automatically |
 
 ## Files
 
-- `style.css`: all desktop and mobile styles
-- `site.js`: navigation, interactive cards and clipboard interactions
-- `favicon.svg`: original pale-pink flower icon
-- Five HTML pages, no dependencies or build process
+- Eight `.html` pages: one page per experience, connected by a navigation menu
+- `style.css`: all design, responsive rules, animations, flower growth, arcade, postcard and stararium artwork
+- `site.js`: all interactive features
+- `favicon.svg`: the original crescent-and-stars logo
 
-The only external resource is a Google Fonts stylesheet with graceful fallback fonts.
+No build step or installation required. The site is built in HTML/CSS/JavaScript, with Google Fonts used only for decorative typefaces and system fallbacks.
+
+## Favorite notes and privacy
+
+The appreciation station stores only the **identifiers of favorite compliment notes** in this browser's `localStorage`, so saved notes survive page reloads. Kate can clear them at any time using **empty my pocket**. No messages she writes or personal information are collected.
+
+The site has no analytics, accounts, backend, or automatic messaging. Copying the optional messages requires a deliberate button press and uses the device clipboard.
+
+This is a public repository / website, so the page doesn't name an ex, expose intimate private details, or claim cheating is proven.
+
+## Publish on GitHub Pages
+
+Enable **Settings → Pages → Deploy from a branch → main → /(root)** if Pages has not yet been enabled.
+
+Intended public URL:
+
+https://sfg246.github.io/4kate/
+
+All site navigation uses relative links, so the project also works on a project-hosted GitHub Pages subpath. Styles and script links are versioned to reduce stale mobile caching.
+
+## Design / QA
+
+- Mobile breakpoints for compact phones
+- Keyboard-accessible links, buttons, native disclosure elements and flip cards
+- Motion respects `prefers-reduced-motion`
+- Live regions for dynamic feedback and note updates
+- A review of source links, CSS syntax, JavaScript syntax and interactive component checks
+- 24/24 scripted interaction checks passed during this iteration
+- Browser-level visual review on physical iOS is still recommended before sharing
+
+## A note about choice
+
+The goal is to remind Kate that she is valuable, deserves respect and owns her decisions, not to make that decision for her. Any breakup or boundaries message is optional. If she is concerned about a hostile reaction, it's okay to lean on trusted people and choose a safer communication method.
+
+Made with care, from Bella.
