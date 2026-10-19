@@ -574,3 +574,9 @@ body.leaving main{animation:depart .27s ease forwards}
 .brand-bloom{background:#f6ebfb;border-color:#d4bbdb;box-shadow:0 5px 13px #836c9d20}
 .brand-bloom svg{width:27px;height:27px}
 @media(max-width:420px){.brand-bloom svg{width:23px;height:23px}}
+
+.universe-shortcut{display:inline-flex;align-items:center;flex-basis:100%;margin-top:3px;color:#95728e;font-size:.8rem;font-weight:800;text-decoration:none;text-underline-offset:3px}
+.universe-shortcut:hover{text-decoration:underline}
+.return-to-pocket{grid-column:1/-1;text-align:center}
+.return-to-pocket .btn{max-width:100%;white-space:normal}
+@media(max-width:760px){.universe-shortcut{justify-content:center}}
